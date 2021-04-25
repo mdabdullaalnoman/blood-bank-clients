@@ -1,0 +1,17 @@
+.no-match{
+      text-align: center;
+      line-height: 50px;
+      width: 30%;
+      margin: 0 auto;
+      position: relative;
+      margin-top: 10%;
+      padding: 30px;
+      background-color: #ccc;
+      box-shadow: 1px 1px 10px 1px #ccc;
+      font-family: 'Courier New', Courier, monospace;
+}
+@media screen and (max-width:800px) {
+  .no-match{
+        width: 90%;
+  }
+}
