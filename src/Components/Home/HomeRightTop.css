@@ -1,0 +1,15 @@
+.home-right-parent{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+}
+.home-right-left{
+      display: flex;
+}
+.home-right-left h5{
+      padding-right: 30px;
+}
+.home-right-right{
+      display: flex;
+      align-items: center;
+}
