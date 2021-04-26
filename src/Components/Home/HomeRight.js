@@ -4,6 +4,7 @@ import HomeRightTop from './HomeRightTop';
 import HomeCarousel from './HomeCarousel';
 import HomeMenuRequest from './HomeMenuRequest';
 import HomeMap from './HomeMap';
+
 const HomeRight = () => {
       return (
 
@@ -13,7 +14,7 @@ const HomeRight = () => {
                         <div className="row">
                               <HomeCarousel></HomeCarousel>
                         </div>
-                        <div className="row">
+                        <div className="row mt-2 mt-md-5">
                               <HomeMenuRequest></HomeMenuRequest>
                               <HomeMap></HomeMap>
                         </div>

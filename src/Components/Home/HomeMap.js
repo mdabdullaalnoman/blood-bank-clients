@@ -1,5 +1,5 @@
 import React from 'react';
-import GoogleMap from './GoogleMap';
+import GoogleMaps from './GoogleMaps';
 import './HomeMap.css';
 
 const HomeMap = () => {
@@ -9,7 +9,7 @@ const HomeMap = () => {
                         <h4>Map</h4>
                   </div>
                   <div className="map-box">
-                        <GoogleMap />
+                        <GoogleMaps></GoogleMaps>
                   </div>
             </div>
       );

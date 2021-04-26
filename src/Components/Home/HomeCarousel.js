@@ -22,7 +22,7 @@ const HomeCarousel = () => {
                               delay: 1000,
                               disableOnInteraction: true
                         }}
-                        spaceBetween={20}
+                        spaceBetween={100}
                         slidesPerView={4}
                         pagination={{ clickable: true }}
                   >
