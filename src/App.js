@@ -5,6 +5,8 @@ import {
 } from "react-router-dom";
 import Home from "./Components/Home/Home";
 import NoMatch from "./Components/NoMatch/NoMatch";
+import PostRequest from "./Components/PostRequest/PostRequest";
+
 
 function App() {
   return (
@@ -15,6 +17,9 @@ function App() {
         </Route>
         <Route path="/home">
           <Home />
+        </Route>
+        <Route path='/postRequest'>
+          <PostRequest />
         </Route>
         <Route path="*">
           <NoMatch />

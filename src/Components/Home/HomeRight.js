@@ -14,7 +14,7 @@ const HomeRight = () => {
                         <div className="row">
                               <HomeCarousel></HomeCarousel>
                         </div>
-                        <div className="row mt-2 mt-md-5">
+                        <div className="row mt-1 mt-md-3">
                               <HomeMenuRequest></HomeMenuRequest>
                               <HomeMap></HomeMap>
                         </div>

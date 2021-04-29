@@ -1,45 +1,57 @@
 import React from 'react';
-import { menuData } from '../FakeData/AllData';
+import { Link } from 'react-router-dom';
 import './HomeMenuRequest.css';
-import { requestData } from './../FakeData/AllData';
+
 const HomeMenuRequest = () => {
+
       return (
             <div className="col-12 col-md-3">
 
 
                   {/* for menu data */}
                   <div className="home-menu">
-                        <h4>Menu</h4>
+                        <h5>Menu</h5>
                   </div>
                   <div className="menu-parent">
-                        {
-                              menuData.map(data =>
-                                    <div className="home-menu-img">
-                                          <img src={data.img} alt="" /><br />
-                                          <small><p>{data.tittle}</p></small>
-                                    </div>
-                              )
-                        }
+                        <div className="home-menu-img">
+                              <img src="https://i.imgur.com/kWsM8vp.jpg" alt="" /><br />
+                              <small><p>Book</p></small>
+                        </div>
+                        <div className="home-menu-img">
+                              <img src="https://i.imgur.com/ReGvYiX.png" alt="" /><br />
+                              <small><p>Donasion</p></small>
+                        </div>
+                        <div className="home-menu-img">
+                              <img src="https://i.imgur.com/hkr8fw1.png" alt="" /><br />
+                              <small><p>Donar</p></small>
+                        </div>
+                        <div className="home-menu-img">
+                              <img src="https://i.imgur.com/xgB02pM.jpg" alt="" /><br />
+                              <small><p>My List</p></small>
+                        </div>
                   </div>
 
 
                   {/* for request data */}
                   <div className="request-menu">
                         <div className="home-request">
-                              <h4>Request</h4>
+                              <h5>Request</h5>
                         </div>
                         <div className="menu-parent">
-                              {
-                                    requestData.map(data =>
-                                          <div className="home-menu-img">
-                                                <img src={data.img} alt="" /><br />
-                                                <small><p>{data.tittle}</p></small>
-                                          </div>
-                                    )
-                              }
+                              <div className="home-menu-img">
+                                    <img src="https://i.imgur.com/tQvwFp4.jpg" alt="" /><br />
+                                    <small><p>Urgent Request</p></small>
+                              </div>
+                              <div className="home-menu-img">
+                                    <img src="https://i.imgur.com/h9sMTk6.png" alt="" /><br />
+                                    <small><p>My Request</p></small>
+                              </div>
+                              <div className="home-menu-img">
+                                    <img src="https://i.imgur.com/ycEybNp.png" alt="" /><br />
+                                    <Link to="/postRequest"><small><p>PostRequest</p></small></Link>
+                              </div>
                         </div>
                   </div>
-
 
             </div>
       );

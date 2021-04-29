@@ -1,0 +1,12 @@
+.post-request-form{
+  background-color: indigo;
+  color: whitesmoke;
+}
+input[type=submit]{
+  background-color: rgb(67, 194, 35);
+  padding: 10px 20px;
+  color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
